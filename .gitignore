@@ -1,0 +1,78 @@
+### Общие системные файлы ###
+.DS_Store
+.idea
+*.iml
+*.log
+*.swp
+*.swo
+*.bak
+~$*
+
+### Maven ###
+backend/target/
+backend/pom.xml.tag
+backend/pom.xml.releaseBackup
+backend/pom.xml.versionsBackup
+backend/pom.xml.next
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/.flattened-pom.xml
+
+### Gradle ###
+backend/.gradle/
+backend/build/
+backend/gradle/
+backend/gradlew
+backend/gradlew.bat
+
+### Node.js ###
+frontend/node_modules/
+frontend/.npm
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/dist/
+frontend/.cache/
+frontend/.next/
+
+### React ###
+frontend/.sass-cache/
+frontend/coverage/
+frontend/.vscode/
+
+### IDE ###
+.vscode/
+*.swp
+.idea/
+
+### Базы данных ###
+*.db
+*.sqlite
+
+### Redis ###
+dump.rdb
+
+### Spring Boot ###
+backend/.settings/
+backend/.project
+backend/.classpath
+backend/.springBeans
+backend/.factorypath
+
+### Логи ###
+*.log
+logs/
+
+### Environment ###
+.env
+application-dev.properties
+application-prod.properties
+
+### Docker ###
+docker-compose.override.yml
